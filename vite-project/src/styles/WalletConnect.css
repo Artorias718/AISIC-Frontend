@@ -1,0 +1,10 @@
+.connect-wallet-button {
+    background: linear-gradient(135deg, #3a8bdb 0%, #CC33D1 100%);
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 15px; /* Rendi i bordi più stondati aumentando il valore */
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiungi una leggera ombra */
+    transition: all 0.3s ease; /* Aggiungi una transizione per un effetto di transizione più fluido */
+}

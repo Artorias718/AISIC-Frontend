@@ -1,0 +1,23 @@
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    color: #f3f3f3; /* Cambia il colore delle icone se necessario */
+    font-size: 24px;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff; /* Cambia il colore al passaggio del mouse se necessario */
+  }
+  
+  .social-icons a img {
+  width: 50px; /* Imposta la larghezza desiderata */
+  height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
+}
+
+
+  

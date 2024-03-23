@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('src/assets/back.jpg'); /* Imposta l'immagine di sfondo */
+  background-size: cover; /* Fai in modo che l'immagine copra tutto lo sfondo */
+}
+
+.app {
+  padding-top: 80px; /* Imposta il padding superiore per evitare sovrapposizioni con l'header */
+}
+
+.content {
+  padding: 20px; /* Aggiungi padding al contenuto per spaziare dal bordo */
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8); /* Aggiungi sfondo all'header */
+  z-index: 1000; /* Assicurati che l'header sia sopra l'immagine di sfondo */
+}

@@ -1,0 +1,37 @@
+/* styles.css */
+
+/* styles.css */
+
+.box-container {
+    position: relative;
+    padding: 10px; /* spazio interno */
+    border-radius: 20px; /* bordi arrotondati */
+    width: 650px; /* larghezza della box */
+    margin: 0 auto; /* centra orizzontalmente */
+    margin-top: 250px; /* spazio sopra */
+    height: 400px;
+    background-color: #181515; /* colore di sfondo */
+  }
+  
+  .box-container::before,
+  .box-container::after {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    z-index: -1;
+    background: linear-gradient(to right, #3498db, #df51c7);
+    border-radius: 20px;
+  }
+
+  
+  .box-text {
+    color: #3498db; /* colore del testo */
+    font-size: 23px; /* dimensione del testo */
+    text-align: center; /* centrare il testo */
+    font-family: "Courier New", Courier, monospace;
+
+  }
+  

@@ -1,0 +1,55 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #272331;
+    color: #fff;
+    padding: 40px;
+    height: 70px;
+  }
+  
+  .header-left img {
+    max-width: 200px; /* Dimensioni dell'immagine */
+  }
+  
+  .header-center nav ul {
+    list-style: none;  
+    padding: 0;
+    margin: 0;
+  } 
+  
+  .header-center nav ul li {
+    display: inline;
+    margin-right: 0px;
+    display: inline-block; /* Li disposti orizzontalmente */
+    margin-right: 60px; /* Spazio tra i link */
+  }
+  
+  .header-center nav ul li a {
+    color: #5399d3;
+    text-decoration: none;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px; /* Dimensione del carattere */
+    font-weight: bold; /* Testo in grassetto */
+
+
+  }
+  
+  .header-right a, .connect-wallet-button {
+    margin-left: 32px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* .connect-wallet-button {
+    background: linear-gradient(135deg, #3a8bdb 0%, #CC33D1 100%);
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 15px; 
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+} */
+  
